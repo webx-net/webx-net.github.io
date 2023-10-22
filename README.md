@@ -1,10 +1,21 @@
-
-<div align=center>
-  <img src="https://avatars.githubusercontent.com/u/143346084?s=80"/>
-  <h1>The WebX Project</h1>
-</div>
+<table align="center">
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/webx-net/webx/master/assets/logo_grad.png" height="180px"/>
+      </td>
+      <td>
+        <h1>The WebX Project</h1>
+        <p>
+          A domain-specific programming language and web framework <br>
+          for hypermedia system-driven backends and REST APIs.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 This is the official website for the WebX project.
-A framework for building minimal but powerful **web app backends**, **REST APIs**, and **hypermedia systems**.
+A development platform where you can build powerful **web application backends** using the smallest amount of code _possible_ code.
 
-\> Visit the [official webx repository](https://github.com/webx-net/webx).
+### \> Visit the [webx repository](https://github.com/webx-net/webx)
