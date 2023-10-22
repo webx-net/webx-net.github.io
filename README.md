@@ -21,7 +21,7 @@ A development platform where you can build powerful **web application backends**
 ### \> Visit the [webx repository](https://github.com/webx-net/webx)
 
 <div align="center">
-  
-_Brought to you by [the ![logo](https://avatars.githubusercontent.com/u/143346084?s=20) webx network](https://github.com/webx-net)._
-
+  <em>
+    Brought to you by <a href="https://github.com/webx-net">the <img src="https://avatars.githubusercontent.com/u/143346084?s=16"> webx network</a>.
+  </em>
 </div>
