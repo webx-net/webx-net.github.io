@@ -22,6 +22,6 @@ A development platform where you can build powerful **web application backends**
 
 <div align="center">
   
-_Brought to you by the ![logo](https://avatars.githubusercontent.com/u/143346084?s=20) webx network._
+_Brought to you by [the ![logo](https://avatars.githubusercontent.com/u/143346084?s=20) webx network](https://github.com/webx-net)._
 
 </div>
