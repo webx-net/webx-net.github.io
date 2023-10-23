@@ -2,7 +2,7 @@
   <table>
     <tbody>
       <tr>
-        <td><img src="https://raw.githubusercontent.com/webx-net/webx/master/assets/logo_grad.png" height="180px"/></td>
+        <td><img src="https://raw.githubusercontent.com/webx-net/webx/master/assets/logo_grad.png" width="200px"/></td>
         <td>
           <h1>The WebX Project</h1>
           <p>
