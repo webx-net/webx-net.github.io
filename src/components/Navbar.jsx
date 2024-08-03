@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
-import X from "../assets/logos/X.png";
+import { WebXBlueLogo } from "../assets/logos/WebXBlueLogo";
 
 const navbarLinks = [
 	{ label: "Home", href: "/#home", ariaLabel: "Home" },
@@ -30,10 +30,7 @@ export const Navbar = () => {
 				>
 					<a href="/#home" aria-label="Home">
 						<div className="flex justify-start items-center grow basis-0">
-							<div className="text-white font-['Inter'] font-bold text-xl mr-1">
-								Web
-							</div>
-							<img src={X.src} alt="X" className="w-6 h-6" />
+							<WebXBlueLogo />
 						</div>
 					</a>
 				</motion.div>
