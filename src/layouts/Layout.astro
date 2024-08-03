@@ -43,6 +43,57 @@ const { title } = Astro.props;
         overflow-x: hidden;
         scroll-behavior: smooth !important;
       }
+
+      .rainbow-text-gradient {
+        --scaling: 200%;
+        background: linear-gradient(
+          90deg,
+          #ff3b3b,
+          #ff803b,
+          #ffff3b,
+          #80ff3b,
+          #3bff3b,
+          #3bff80,
+          #3bffff,
+          #3b80ff,
+          #3b3bff,
+          #803bff,
+          #ff3bff,
+          #ff3b80,
+          #ff3b3b
+        );
+        background-size: var(--scaling) 100%;
+        background-position: 0 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow 10s linear infinite;
+        display: inline-block;
+        filter: drop-shadow(0 0 0.5px #fff) drop-shadow(0 1px 1.5px #fff)
+          brightness(1.5);
+      }
+
+      @keyframes rainbow {
+        0% {
+          background-position-x: 0%;
+        }
+        100% {
+          background-position-x: var(--scaling);
+        }
+      }
+
+      .retro-text-gradient {
+        background: linear-gradient(
+          180deg,
+          #f7eef1 20%,
+          #daa9f3 30%,
+          #5e2ec5 55%,
+          #7400b7 80%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        filter: drop-shadow(0 0.75px 0 #1c0d36) drop-shadow(0 -0.75px 0 #d8a5ec);
+      }
     </style>
   </body>
 </html>
