@@ -70,7 +70,9 @@ export const Navbar = () => {
 							target="_blank"
 							aria-label="source code"
 						>
-							<GithubIcon />
+							<span className="w-6 h-6 mr-3 fill-gray-400">
+								<GithubIcon />
+							</span>
 							<span className="pt-px">Source code</span>
 						</a>
 					</div>

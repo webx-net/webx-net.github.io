@@ -43,12 +43,15 @@ export const Footer = () => {
 								Dashboard images were made using free Dark Admin dashboard that
 								you can find
 								<a
-									href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
+									className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button fill-white "
+									href="https://github.com/webx-net/webx"
 									target="_blank"
-									className="text-gray-100 ml-1.5 "
-									aria-label="Dark Admin Dashboard"
+									aria-label="source code"
 								>
-									here.
+									<span
+										className="h-5 w-5">
+										<GithubIcon />
+									</span>
 								</a>
 							</p>
 							<div className="w-36 mx-auto lg:mx-0">
