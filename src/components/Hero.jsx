@@ -3,14 +3,22 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
+import darkFlowing from "../assets/images/backgrounds/flowing_dark.png";
+import lightFlowing from "../assets/images/backgrounds/flowing_light.png";
 
 export const Hero = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	return (
 		<section
-			className="w-screen flex justify-center items-center bg-bgDark1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
+			className="w-screen flex justify-center items-center bg-bgDark1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 pb-24 sm:pb-32 md:pb-44 lg:pb-0"
 			id="home"
+			style={{
+				backgroundImage: `url(${darkFlowing.src}), url(${lightFlowing.src})`,
+				backgroundPosition: "center",
+				backgroundSize: "cover",
+				backgroundRepeat: "no-repeat",
+			}}
 		>
 			<div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
 				<motion.div
