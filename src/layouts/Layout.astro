@@ -94,6 +94,36 @@ const { title } = Astro.props;
         display: inline-block;
         filter: drop-shadow(0 0.75px 0 #1c0d36) drop-shadow(0 -0.75px 0 #d8a5ec);
       }
+
+      .token.plain {
+        display: inline-block;
+        margin-left: 1ch;
+      }
+      .token.plain + .token.plain {
+        margin-left: 2ch;
+      }
+      .token.plain:first-child {
+        margin-left: 2ch;
+      }
+
+      pre code {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      *::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+      }
+
+      *::-webkit-scrollbar-thumb {
+        background: #353535;
+        border-radius: 10px;
+      }
+
+      *::-webkit-scrollbar-thumb:hover {
+        background: #494949;
+      }
     </style>
   </body>
 </html>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
+import { CodeBox } from "./CodeBox";
 import dashboard from "../assets/images/dashboard.jpg";
 import darkFlowing from "../assets/images/backgrounds/flowing_dark.png";
 import lightFlowing from "../assets/images/backgrounds/flowing_light.png";
@@ -11,7 +12,7 @@ export const Hero = () => {
 
 	return (
 		<section
-			className="w-screen flex justify-center items-center bg-bgDark1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 pb-12 sm:pb-32 md:pb-44 lg:pb-0"
+			className="w-screen flex justify-center items-center bg-bgDark1 mb-[32vw] sm:mb-[22vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 pb-12 sm:pb-32 md:pb-44 lg:pb-0"
 			id="home"
 			style={{
 				backgroundImage: `url(${darkFlowing.src})`,
@@ -26,7 +27,7 @@ export const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<h3 className="text-secondaryColor text-sm sm:text-base mb-4 sm:mb-6 mt-16 sm:mt-32 lg:mt-52 font-bold font-Bungee">
+					<h3 className="text-secondaryColor text-sm sm:text-base mb-4 sm:mb-6 mt-16 sm:mt-32 lg:mt-40 font-bold font-Bungee">
 						{/* Discover new data flow */}
 						Unleash the Power of Hypermedia
 					</h3>
@@ -69,7 +70,7 @@ export const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5, delay: 0.15 }}
 				>
-					<div className="flex flex-col gap-2 sm:flex-row mt-6 sm:mt-14 mb-12 sm:mb-48 justify-center">
+					<div className="flex flex-col gap-2 sm:flex-row mt-6 sm:mt-14 mb-12 sm:mb-32 justify-center">
 						<button
 							className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
 							onClick={() => setIsModalOpen(true)}
@@ -92,11 +93,12 @@ export const Hero = () => {
 					transition={{ duration: 0.5, delay: 0.15 }}
 				>
 					<div className="relative w-screen flex justify-center ">
-						<img
+						{/* <img
 							src={dashboard.src}
 							alt="Dashboard image"
 							className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-						/>
+						/> */}
+						<CodeBox />
 					</div>
 				</motion.div>
 				<div className="relative w-screen flex justify-center ">
