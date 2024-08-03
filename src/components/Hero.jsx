@@ -100,18 +100,12 @@ export const Hero = () => {
 					</div>
 				</motion.div>
 				<div className="relative w-screen flex justify-center ">
-					<div className="shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
-						<svg
-							data-name="Layer 1"
+					<div className="shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-28 hidden lg:block">
+						<svg data-name="Layer 1"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 1200 120"
-							preserveAspectRatio="none"
-							className="bg-bgDark2"
-						>
-							<path
-								d="M1200 0L0 0 598.97 114.72 1200 0z"
-								className="shape-fill bg-bgDark1  fill-bgDark1"
-							></path>
+							preserveAspectRatio="none">
+							<path d="M 1200.041 120.2 L 1200.37 -0.101 L 598.97 114.72 L 0.039 -0.155 L -0.254 119.945 L 1200.041 120.2 Z" className="shape-fill fill-bgDark2" />
 						</svg>
 					</div>
 				</div>
