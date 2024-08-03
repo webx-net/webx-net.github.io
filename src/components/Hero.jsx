@@ -40,7 +40,7 @@ export const Hero = () => {
 						{/* <h1 className="inline md:hidden">Analytics</h1>
 						<h1 className="hidden md:inline">Analytic tools suite</h1> */}
 						<h1 className="inline md:hidden">
-							A Framework <br />for <em>Speedy</em>
+							A Framework <br />for <em>Speedy</em> Web
 							<div className="md:mt-2">
 								Applications
 							</div>
