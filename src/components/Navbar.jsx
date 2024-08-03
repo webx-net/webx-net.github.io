@@ -30,7 +30,8 @@ export const Navbar = () => {
 				>
 					<a href="/#home" aria-label="Home">
 						<div className="flex justify-start items-center grow basis-0">
-							<WebXBlueLogo />
+							<span className="text-white text-shadow-sm shadow-black text-3xl font-medium">Web&nbsp;</span>
+							<img src="/favicon.png" width="26" alt="X" />
 						</div>
 					</a>
 				</motion.div>
@@ -92,11 +93,7 @@ export const Navbar = () => {
 						transition={{ duration: 0.3 }}
 						exit={{ opacity: 0 }}
 					>
-						<div
-							className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-bgDark1 z-50 w-full
-        items-center gap-10 pb-10 border-y border-solid border-bgDark3 pt-10
-        "
-						>
+						<div className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-bgDark1 bg-bgDarkTransparent backdrop-blur-xl z-50 w-full items-center gap-10 pb-10 border-y border-solid border-bgDark3 pt-10">
 							{navbarLinks.map(({ label, href, ariaLabel }) => (
 								<a
 									key={href}
@@ -113,8 +110,10 @@ export const Navbar = () => {
 								href="https://github.com/webx-net/webx"
 								target="_blank"
 							>
-								<GithubIcon />
-								Source code
+								<span className="w-6 h-6 mr-3 fill-gray-400">
+									<GithubIcon />
+								</span>
+								<span className="pt-px">Source code</span>
 							</a>
 						</div>
 					</motion.div>
