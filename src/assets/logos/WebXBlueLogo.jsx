@@ -1,6 +1,6 @@
 export const WebXBlueLogo = () => (
 	<svg
-		width="75"
+		width="90"
 		viewBox="215.407 44.38 7070.7932 1899.4139"
 		xmlns="http://www.w3.org/2000/svg"
 		fill="white"
