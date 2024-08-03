@@ -26,7 +26,7 @@ export const Hero = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<h3 className="text-secondaryColor text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
+					<h3 className="text-secondaryColor text-sm sm:text-base mb-6 mt-16 sm:mt-32 lg:mt-52 font-bold font-Bungee">
 						{/* Discover new data flow */}
 						Unleash the Power of Hypermedia
 					</h3>
@@ -61,7 +61,7 @@ export const Hero = () => {
 					<h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
 						{/* Experience seamless business integrations and powerful insights with
 						our cutting-edge analytic tools. */}
-						A superset of <em>TypeScript</em> compiling to <em>WebAssembly</em>, running on a hyper-efficient <em>Rust</em> web server.
+						A superset of <em>TypeScript</em> running on the <em>V8</em> engine in a hyper-efficient <em>Rust</em> web server environment.
 					</h2>
 				</motion.div>
 				<motion.div
