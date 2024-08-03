@@ -28,9 +28,7 @@ A development platform where you can build powerful **web application backends**
 
 # Theme: Tailcast
 
-Dark themed website template built on AstroJS, designed for fictional startup
-
-## Tech stack
+Tech stack
 
 - Astro
 - React
