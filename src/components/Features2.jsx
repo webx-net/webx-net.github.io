@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import feature5 from "../assets/images/template/feature5.jpg";
 import feature6 from "../assets/images/template/feature6.jpg";
 import hands from "../assets/images/stock/hands.webp";
+import stars from "../assets/images/stargazers/graph.png";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 export const Features2 = () => (
@@ -15,21 +16,23 @@ export const Features2 = () => (
 			transition={{ duration: 0.5, delay: 0.2 }}
 		>
 			<div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
-				<div className="w-11/12 sm:w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first">
+				<div className="w-11/12 sm:w-3/4 mx-auto lg:w-1/2 flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first hidden sm:flex">
 					<div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
 						<div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
 							<div className="rounded-xl main-border-gray">
-								<img src="https://api.star-history.com/svg?repos=webx-net/webx&type=Date"
+								<h4 className="text-center text-secondaryText font-bold text-lg py-4">
+									Our stargazers
+								</h4>
+								{/* <img src="https://api.star-history.com/svg?repos=webx-net/webx&type=Date"
 									alt="Star history"
-									className="rounded-xl invert hue-rotate-180 contrast-[73%] saturate-150" />
+									className="rounded-xl invert hue-rotate-180 contrast-[73%] saturate-150" /> */}
+								{/* <img src="https://starchart.cc/webx-net/webx.svg?variant=adaptive"
+									alt="Star history"
+									className="rounded-xl pb-14 px-4" /> */}
+								<img src={stars.src}
+									alt="Star history"
+									className="rounded-xl pl-4" />
 							</div>
-						</div>
-						<div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
-							<img
-								src={hands.src}
-								alt="Feature image 6"
-								className="rounded-xl  main-border-gray"
-							/>
 						</div>
 					</div>
 				</div>
