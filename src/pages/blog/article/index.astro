@@ -1,11 +1,11 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
-import { Navbar } from '../../../components/Navbar.jsx'
-import { Article } from '../../../components/Article.jsx'
-import { Footer } from '../../../components/Footer.jsx'
-import blog1 from '../../../assets/images/blog1.jpg'
-import '../../../styles/Theme.css'
-import { ScrollUpButton } from '../../../components/ScrollUpButton'
+import Layout from "../../../layouts/Layout.astro";
+import { Navbar } from "../../../components/Navbar.jsx";
+import { Article } from "../../../components/Article.jsx";
+import { Footer } from "../../../components/Footer.jsx";
+import blog1 from "../../../assets/images/template/blog1.jpg";
+import "../../../styles/Theme.css";
+import { ScrollUpButton } from "../../../components/ScrollUpButton";
 
 const articleData = {
   title: "AI and Machine Learning",
@@ -26,7 +26,7 @@ const articleData = {
     <p>Stay tuned as we continue to explore the evolving landscape of AI and its transformative impact on business analytics and financing.</p>
   `,
   footer: "~ Duncan Idaho"
-}
+};
 ---
 
 <Layout title={articleData.title}>
