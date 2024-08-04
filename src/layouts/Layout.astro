@@ -124,6 +124,10 @@ const { title } = Astro.props;
       *::-webkit-scrollbar-thumb:hover {
         background: #494949;
       }
+      /* Hide scrollbar edge */
+      *::-webkit-scrollbar-corner {
+        background: transparent;
+      }
     </style>
   </body>
 </html>

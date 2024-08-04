@@ -27,7 +27,7 @@ export const CodeBox = () => (<>
 				<div aria-hidden="true" className="select-none border-r border-slate-300/5 pr-4 font-mono text-slate-600">
 					01<br />02<br />03<br />04<br />05<br />06<br />07<br />08<br />09<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br />31<br />32<br />33<br />34<br />35<br />36<br />37
 				</div>
-				<pre className="flex text-white overflow-x-auto pb-6" style={{ position: 'relative' }}>
+				<pre className="flex text-white pb-6" style={{ position: 'relative' }}>
 					<code className="px-4">
 						<div className="token-line">
 							<span className="token comment">// HTML pages and fragments</span>
