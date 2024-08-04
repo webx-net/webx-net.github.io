@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
-import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import featuresdiagonal from "../assets/images/template/featuresdiagonal.jpg";
 import { RightArrowIcon } from "../assets/icons/RightArrowIcon";
 
 export const FeaturesDiagonal = () => {

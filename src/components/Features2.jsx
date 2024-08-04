@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/feature5.jpg";
-import feature6 from "../assets/images/feature6.jpg";
-import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
+import feature5 from "../assets/images/template/feature5.jpg";
+import feature6 from "../assets/images/template/feature6.jpg";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 export const Features2 = () => (

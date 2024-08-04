@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import { RightArrowIcon } from "../assets/icons/RightArrowIcon";
 import { InvitationModal } from "./InvitationModal";
 import { CodeBox } from "./CodeBox";
-import dashboard from "../assets/images/dashboard.jpg";
 import darkFlowing from "../assets/images/backgrounds/flowing_dark.png";
-import lightFlowing from "../assets/images/backgrounds/flowing_light.png";
 import { PlayIcon } from "../assets/icons/PlayIcon";
 
 export const Hero = () => {
