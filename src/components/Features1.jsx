@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
+import typescript from "../assets/images/langs/Typescript.svg";
+import html from "../assets/images/langs/HTML5.svg";
+import rust from "../assets/images/langs/Rust.svg";
+import htmx from "../assets/images/langs/HTMX.svg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -51,38 +51,38 @@ export const Features1 = () => {
 						</div>
 					</div>
 					<div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
-						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
+						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0 hidden sm:inline-block">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded">
 								<img
-									src={feature1.src}
+									src={typescript.src}
 									alt="Feature image 1"
-									className="rounded-xl  main-border-gray mx-auto sm:mx-unset"
+									className="rounded-xl mx-auto sm:mx-unset p-12"
 									aria-label="Feature image 1"
 								/>
 							</div>
 							<div className="py-3 pl-3 pr-2 rounded ">
 								<img
-									src={feature2.src}
-									alt="Feature image 2"
-									className="rounded-xl  main-border-gray mx-auto sm:mx-unset"
-									aria-label="Feature image 2"
+									src={rust.src}
+									alt="Feature image 3"
+									className="rounded-xl mx-auto sm:mx-unset invert w-full"
+									aria-label="Feature image 3"
 								/>
 							</div>
 						</div>
 						<div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
 								<img
-									src={feature3.src}
-									alt="Feature image 3"
-									className="rounded-xl  main-border-gray"
-									aria-label="Feature image 3"
+									src={html.src}
+									alt="Feature image 2"
+									className="rounded-xl mx-auto sm:mx-unset p-11"
+									aria-label="Feature image 2"
 								/>
 							</div>
 							<div className="py-3 pl-3 pr-2 rounded-lg ">
 								<img
-									src={feature4.src}
+									src={htmx.src}
 									alt="Feature image 4"
-									className="rounded-xl  main-border-gray"
+									className="rounded-xl mx-auto sm:mx-unset"
 									aria-label="Feature image 4"
 								/>
 							</div>
