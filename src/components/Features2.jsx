@@ -38,7 +38,7 @@ export const Features2 = () => (
 							Join the Movement
 						</span>
 						<h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-							Awesome <span className="retro-text-gradient font-extrabold">Open-Source</span> Community
+							Awesome <span className="rainbow-text-gradient font-extrabold">Open-Source</span> Community
 						</h2>
 						<p className="mb-12 text-secondaryText leading-loose">
 							Developers from all over the world contribute to our open-source
