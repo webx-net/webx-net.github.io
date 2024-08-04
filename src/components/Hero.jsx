@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+import { RightArrowIcon } from "../assets/icons/RightArrowIcon";
 import { InvitationModal } from "./InvitationModal";
 import { CodeBox } from "./CodeBox";
 import dashboard from "../assets/images/dashboard.jpg";
 import darkFlowing from "../assets/images/backgrounds/flowing_dark.png";
 import lightFlowing from "../assets/images/backgrounds/flowing_light.png";
+import { PlayIcon } from "../assets/icons/PlayIcon";
 
 export const Hero = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -71,18 +73,25 @@ export const Hero = () => {
 					transition={{ duration: 0.5, delay: 0.15 }}
 				>
 					<div className="flex flex-col gap-2 sm:flex-row mt-6 sm:mt-14 mb-12 sm:mb-32 justify-center">
-						<button
+						<a
+							href="https://docs.webx.sh/"
+							target="_blank"
 							className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-							onClick={() => setIsModalOpen(true)}
 							aria-label="Get started"
 						>
+							<span className="w-6 h-6 mr-3 fill-white">
+								<RightArrowIcon />
+							</span>
 							Get Started
-						</button>
+						</a>
 						<button
 							className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid  flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
 							onClick={() => setIsModalOpen(true)}
 							aria-label="Live demo"
 						>
+							<span className="w-3 h-3 mr-3 fill-white">
+								<PlayIcon />
+							</span>
 							Live demo
 						</button>
 					</div>
