@@ -50,13 +50,9 @@ export const CodeBox = () => {
 								<span className="token plain"></span>
 								<span className="token punctuation">{"("}</span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>html</span> <span className="token attr-name">lang</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>en<span className="token punctuation">"</span></span><span className="token punctuation">&gt;</span></span>
-							</div>
-							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>body<span className="token punctuation">&gt;</span></span></span>
 							</div>
 							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>h1<span className="token punctuation">&gt;</span></span></span>
 								Hello from WebX!
@@ -64,13 +60,11 @@ export const CodeBox = () => {
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>button<span className="token attr-name"> hx-get</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>/about<span className="token punctuation">"</span></span> <span className="token attr-name"> hx-swap</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>outerHTML<span className="token punctuation">"</span></span><span className="token punctuation">&gt;</span></span></span>
 								About
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;/</span>button<span className="token punctuation">&gt;</span></span></span>
 							</div>
 							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>h2<span className="token punctuation">&gt;</span></span></span>
 								Favorite Foods
@@ -78,11 +72,9 @@ export const CodeBox = () => {
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>ul<span className="token attr-name"> id</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>foods<span className="token punctuation">"</span></span><span className="token punctuation">&gt;</span></span></span>
 							</div>
 							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token punctuation">{"{"}</span>
@@ -97,16 +89,13 @@ export const CodeBox = () => {
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;/</span>ul<span className="token punctuation">&gt;</span></span></span>
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>form<span className="token attr-name"> hx-post</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>/api/foods<span className="token punctuation">"</span></span><span className="token attr-name"> hx-swap</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>afterend<span className="token punctuation">"</span></span></span></span>
 							</div>
 							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token plain"> </span>
@@ -115,17 +104,14 @@ export const CodeBox = () => {
 							<div className="token-line">
 								<span className="token plain"></span>
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>input<span className="token attr-name"> type</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>text<span className="token punctuation">"</span></span><span className="token attr-name"> name</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>name<span className="token punctuation">"</span></span><span className="token attr-name"> placeholder</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>Food name<span className="token punctuation">"</span></span><span className="token punctuation">{"/>"}</span></span></span>
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
 								<span className="token plain"></span>
-								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>input<span className="token attr-name"> type</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>text<span className="token punctuation">"</span></span><span className="token attr-name"> name</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>emoji<span className="token punctuation">"</span></span><span className="token attr-name"> placeholder</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>Emoji<span className="token punctuation">"</span></span><span className="token punctuation">{"/>"}</span></span></span>
 							</div>
 							<div className="token-line">
-								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token plain"></span>
 								<span className="token tag"><span className="token tag"><span className="token punctuation">&lt;</span>button<span className="token attr-name"> type</span><span className="token attr-value"><span className="token punctuation attr-equals">=</span><span className="token punctuation">"</span>submit<span className="token punctuation">"</span></span><span className="token punctuation">{"/>"}</span></span></span>
