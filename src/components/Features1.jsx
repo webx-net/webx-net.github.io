@@ -23,10 +23,10 @@ export const Features1 = () => {
 						<div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
 							<span className="block-subtitle">Embrace Innovation</span>
 							<h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-								Unlike any <span className="rainbow-text-gradient font-extrabold">tech</span> you used before
+								Discover <span className="rainbow-text-gradient font-extrabold">Web X</span>
 							</h2>
 							<p className="mb-10 text-secondaryText leading-loose">
-								Web X is a minimal framework designed for developers who need a high-performance, scalable solution for web backends, REST APIs, and hypermedia systems.
+								Web X is a minimal and powerful framework designed for developers who need high-performance and scalable web backends, REST APIs, and hypermedia systems.
 							</p>
 							<ul className="mb-6 text-primaryText">
 								<li className="mb-4 flex">
