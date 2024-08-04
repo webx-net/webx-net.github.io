@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 import feature5 from "../assets/images/feature5.jpg";
 import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
+import { GithubIcon } from "../assets/icons/GithubIcon";
 
 export const Features2 = () => (
-	<section className="w-full bg-bgDark2 mt-12 sm:mt-24 mb-12 lg:my-20 lg:mb-24 pt-4">
+	<section className="w-full bg-bgDark2 mt-12 sm:mt-24 mb-12 lg:my-20 lg:mb-24 pt-4 relative">
+		<div className="absolute -top-16" id="community" />
 		<motion.div
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
@@ -40,25 +42,17 @@ export const Features2 = () => (
 						<h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
 							Awesome <span className="rainbow-text-gradient font-extrabold">Open-Source</span> Community
 						</h2>
-						<p className="mb-12 text-secondaryText leading-loose">
+						<p className="mb-6 text-secondaryText leading-loose">
 							Developers from all over the world contribute to our open-source
-							projects. Join the community and help us build the future of
+							projects. Join the Web X community on GitHub and help us build the future of
 							technology.
 						</p>
-						<ul className="mb-6 text-primaryText">
-							<li className="mb-4 flex">
-								<CheckArrowIcon />
-								<span>Collaborative environment</span>
-							</li>
-							<li className="mb-4 flex">
-								<CheckArrowIcon />
-								<span>Smart issue categorization</span>
-							</li>
-							<li className="mb-4 flex">
-								<CheckArrowIcon />
-								<span>Customizable notifications</span>
-							</li>
-						</ul>
+						<a href="https://github.com/webx-net/webx" target="_blank" className="contained-button w-72 sm:w-56 h-12 mb-6">
+							<span className="w-6 h-6 mr-3 fill-white">
+								<GithubIcon />
+							</span>
+							Join us on GitHub
+						</a>
 					</div>
 				</div>
 			</div>
