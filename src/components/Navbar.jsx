@@ -30,8 +30,7 @@ export const Navbar = () => {
 				>
 					<a href="/#home" aria-label="Home">
 						<div className="flex justify-start items-center grow basis-0">
-							<span className="text-white text-shadow-sm shadow-black text-3xl font-medium">Web&nbsp;</span>
-							<img src="/favicon.png" width="26" alt="X" />
+							<WebXBlueLogo />
 						</div>
 					</a>
 				</motion.div>
