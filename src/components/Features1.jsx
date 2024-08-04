@@ -33,15 +33,19 @@ export const Features1 = () => {
 							<ul className="mb-6 text-primaryText">
 								<li className="mb-4 flex">
 									<CheckArrowIcon />
-									<span>HTML-first driven design and development</span>
+									<span>Seamless TSX/JSX support</span>
 								</li>
 								<li className="mb-4 flex">
 									<CheckArrowIcon />
-									<span>Built-in <a href="https://htmx.org/" target="_blank">HTM<span style={{ color: "#6da2ff" }}>X</span></a> interoperability and intellisense</span>
+									<span>Built-in <a href="https://htmx.org/" target="_blank" className="underline">HTMX</a> linting</span>
 								</li>
 								<li className="mb-4 flex">
 									<CheckArrowIcon />
-									<span>Seamless integration with APIs</span>
+									<span>Minimal and intuitive syntax</span>
+								</li>
+								<li className="mb-4 flex">
+									<CheckArrowIcon />
+									<span>Blazing fast performance with Rust</span>
 								</li>
 							</ul>
 						</div>
