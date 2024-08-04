@@ -6,11 +6,11 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 import { WebXBlueLogo } from "../assets/logos/WebXBlueLogo";
 
 const navbarLinks = [
-	{ label: "Home", href: "/#home", ariaLabel: "Home" },
-	{ label: "Features", href: "/#features", ariaLabel: "Features" },
-	{ label: "Documentation", href: "/#pricing", ariaLabel: "Documentation" },
-	{ label: "Community", href: "/#feedback", ariaLabel: "Community" },
-	{ label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
+	{ label: "Home", href: "/#home", target: '', ariaLabel: "Home" },
+	{ label: "Features", href: "/#features", target: '', ariaLabel: "Features" },
+	{ label: "Documentation", href: "https://docs.webx.sh/", target: '_blank', ariaLabel: "Documentation" },
+	{ label: "Community", href: "/#community", target: '', ariaLabel: "Community" },
+	{ label: "FAQ", href: "/#FAQ", target: '', ariaLabel: "FAQ" },
 ];
 
 export const Navbar = () => {
@@ -42,10 +42,11 @@ export const Navbar = () => {
 					exit={{ opacity: 0 }}
 				>
 					<div className="hidden lg:flex h-full pl-12 pb-2">
-						{navbarLinks.map(({ href, label, ariaLabel }) => (
+						{navbarLinks.map(({ href, label, target, ariaLabel }) => (
 							<a
 								className="text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
 								href={href}
+								target={target}
 								aria-label={ariaLabel}
 								key={label}
 							>
