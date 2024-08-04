@@ -92,6 +92,8 @@ export const CodeBox = () => {
 								<span className="token punctuation">{"("}</span>
 								<span className="token function">renderFood</span>
 								<span className="token punctuation">{")}"}</span>
+								<span className="token plain"></span>
+								<span className="token comment">// Server-side rendering</span>
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
@@ -294,33 +296,13 @@ export const CodeBox = () => {
 								<span className="token plain"></span>
 								<span className="token keyword">form</span>
 								<span className="token punctuation">{"("}</span>
-								name
+								newFood
 								<span className="token punctuation">:</span>
 								<span className="token plain"></span>
-								<span className="token property">String</span>
-								<span className="token punctuation">,</span>
-								<span className="token plain"></span>
-								emoji
-								<span className="token punctuation">:</span>
-								<span className="token plain"></span>
-								<span className="token property">String</span>
+								<span className="token property">Food</span>
 								<span className="token punctuation">{")"}</span>
 								<span className="token plain"></span>
 								<span className="token punctuation">{"{"}</span>
-							</div>
-							<div className="token-line">
-								<span className="token plain"></span>
-								<span className="token plain"></span>
-								<span className="token keyword">const</span>
-								<span className="token plain"></span>
-								newFood =
-								<span className="token punctuation">{" {"}</span>
-								<span className="token plain"></span>
-								name
-								<span className="token punctuation">,</span>
-								<span className="token plain"></span>
-								emoji
-								<span className="token punctuation">{" }"}{";"}</span>
 							</div>
 							<div className="token-line">
 								<span className="token plain"></span>
