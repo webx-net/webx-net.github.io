@@ -50,8 +50,8 @@ export const Features1 = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
-						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0 hidden sm:inline-block">
+					<div className="w-3/4 mx-auto lg:w-1/2 flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8 relative  hidden sm:flex">
+						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded">
 								<img
 									src={typescript.src}
@@ -69,7 +69,7 @@ export const Features1 = () => {
 								/>
 							</div>
 						</div>
-						<div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
+						<div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
 								<img
 									src={html.src}
@@ -87,6 +87,9 @@ export const Features1 = () => {
 								/>
 							</div>
 						</div>
+						<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pt-4 text-secondaryText text-6xl">
+							+
+						</span>
 					</div>
 				</div>
 			</motion.div>
