@@ -26,9 +26,7 @@ export const Features1 = () => {
 								Unlike any <span className="rainbow-text-gradient font-extrabold">tech</span> you used before
 							</h2>
 							<p className="mb-10 text-secondaryText leading-loose">
-								Discover a new level of data analysis with our innovative and
-								user-friendly platform. Transform your business needs with
-								actionable insights.
+								Web X is a minimal framework designed for developers who need a high-performance, scalable solution for web backends, REST APIs, and hypermedia systems.
 							</p>
 							<ul className="mb-6 text-primaryText">
 								<li className="mb-4 flex">
