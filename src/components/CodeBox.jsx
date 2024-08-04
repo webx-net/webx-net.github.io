@@ -13,7 +13,7 @@ export const CodeBox = () => {
 		}
 	}, []);
 	return (<>
-		<div className="absolute rounded-2xl bg-bgDarker1/90 ring-1 ring-white/10 backdrop-blur w-4/5 2xl:w-[1200px] text-left">
+		<div className="rounded-2xl bg-bgDarker1/90 ring-1 ring-white/10 backdrop-blur text-left">
 			<div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-primaryColor/0 via-secondaryColor/70 to-primaryColor/0"></div>
 			<div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-primaryColor/0 via-secondaryColor to-primaryColor/0"></div>
 			<div className="pl-4 pt-4">
