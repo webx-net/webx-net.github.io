@@ -31,7 +31,7 @@ export const Features2 = () => (
 									className="rounded-xl pb-14 px-4" /> */}
 								<img src={stars.src}
 									alt="Star history"
-									className="rounded-xl pl-4" />
+									className="rounded-xl pl-4 w-full h-44" />
 							</div>
 						</div>
 					</div>
