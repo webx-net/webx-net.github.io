@@ -43,7 +43,7 @@ export const Features2 = () => (
 							Join the Movement
 						</span>
 						<h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-							Awesome <span className="rainbow-text-gradient font-extrabold">Open-Source</span> Community
+							<span className="rainbow-text-gradient font-extrabold">Awesome</span> Community
 						</h2>
 						<p className="mb-6 text-secondaryText leading-loose">
 							Developers from all over the world contribute to our open-source
@@ -60,5 +60,5 @@ export const Features2 = () => (
 				</div>
 			</div>
 		</motion.div>
-	</section>
+	</section >
 );
