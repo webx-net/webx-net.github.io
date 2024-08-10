@@ -4,6 +4,7 @@ import { useState } from "react";
 import { InvitationModal } from "./InvitationModal";
 import featuresdiagonal from "../assets/images/template/featuresdiagonal.jpg";
 import { RightArrowIcon } from "../assets/icons/RightArrowIcon";
+import webx_stripe from "../assets/images/webx_stripe.svg";
 
 export const FeaturesDiagonal = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,6 +25,16 @@ export const FeaturesDiagonal = () => {
 					></path>
 				</svg>
 			</div>
+			<motion.div
+				initial={{ opacity: 0, x: 100 }}
+				whileInView={{ opacity: 1, x: 0 }}
+				viewport={{ once: true }}
+				transition={{ duration: 1.5, delay: 0.75 }}
+				className="w-full h-[12vw] relative -mt-[2vw]"
+			>
+				<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-0 w-1/2 h-full" />
+				{/* <img src={webx_stripe.src} alt="Web X stripe" className="w-1/2 h-full ml-auto" /> */}
+			</motion.div>
 			<motion.div
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
