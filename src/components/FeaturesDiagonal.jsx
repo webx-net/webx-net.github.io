@@ -26,10 +26,10 @@ export const FeaturesDiagonal = () => {
 				</svg>
 			</div>
 			<motion.div
-				initial={{ opacity: 0, x: 100 }}
+				initial={{ opacity: 0, x: 400 }}
 				whileInView={{ opacity: 1, x: 0 }}
 				viewport={{ once: true }}
-				transition={{ duration: 1.5, delay: 0.75 }}
+				transition={{ duration: 2, delay: 0.75 }}
 				className="w-full h-[12vw] min-h-12 relative -mt-[2vw]"
 			>
 				<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-0 w-1/2 min-w-64 h-full" />
