@@ -36,7 +36,7 @@ export const CodeBox = () => {
 						<div className="flex items-center rounded-full px-2.5">package.json</div>
 					</div>
 				</div>
-				<div className="mt-4 mb-3 flex items-start px-1 h-[28vw] overflow-auto leading-3 text-[.5rem] xs:text-xs sm:text-sm md:text-lg">
+				<div className="mt-4 mb-3 flex items-start px-1 h-[28vw] max-h-[30rem] overflow-auto leading-3 text-[.5rem] xs:text-xs sm:text-sm md:text-lg">
 					<div aria-hidden="true" className="select-none border-r border-slate-300/5 pr-4 font-mono text-slate-600" ref={lineNoRef}></div>
 					<pre className="flex text-white pb-2" style={{ position: 'relative' }}>
 						<code className="px-4" ref={codeRef}>
