@@ -32,17 +32,16 @@ export const FeaturesDiagonal = () => {
 			>
 				<div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-bgDark1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
 					<div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
-						<span className="block-subtitle">Accelerate Your Success</span>
+						<span className="block-subtitle">Accelerate Your Development</span>
 						<h2 className="mt-10 mb-8 text-4xl lg:text-5xl block-big-title">
-							Build &amp; Launch without problems
+							Scale with <span className="rainbow-text-gradient font-extrabold">Confidence</span>
 						</h2>
-						<p className="mb-16 text-secondaryText leading-loose">
-							Our platform enables you to launch your data-driven projects with
-							ease. Boost productivity and achieve better results. Empower your
-							decision-making with advanced analytics.
-							<br />
-							Join the movement and start building with Web X today.
+						<p className="mb-4 text-secondaryText leading-loose">
+							Web X allow you applications to scale seamlessly as demand increase.
+							Focus on business logic writing clean and maintainable code while Web X handles the heavy lifting.
+							We built Web X for your success.
 						</p>
+						<p className="mb-8 font-Bungee font-bold text-secondaryColor">Embrace the future &nbsp; &mdash; &nbsp; start building today</p>
 						<a
 							href="https://docs.webx.sh/"
 							target="_blank"

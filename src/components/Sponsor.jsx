@@ -46,7 +46,7 @@ export const Sponsor = () => {
 						<div className="lg:mb-0 w-full px-2 lg:px-0">
 							<img src={people.src} alt="Feature image 5" className="rounded-xl h-full w-full pl-5" />
 						</div>
-						<p className="mb-6 text-secondaryText leading-loose font-Bungee font-semibold text-center px-3">
+						<p className="mb-6 leading-loose font-Bungee font-bold text-secondaryColor text-center px-3">
 							<b className="underline underline-offset-8">100%</b> of all funds go to maintainers and community initiatives.
 						</p>
 					</div>
