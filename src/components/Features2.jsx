@@ -5,6 +5,7 @@ import feature6 from "../assets/images/template/feature6.jpg";
 import hands from "../assets/images/stock/hands.webp";
 import stars from "../assets/images/stargazers/graph.png";
 import { GithubIcon } from "../assets/icons/GithubIcon";
+import { DiscordIcon } from "../assets/icons/DiscordIcon";
 
 export const Features2 = () => (
 	<section className="w-full bg-bgDark2 mt-12 sm:mt-24 mb-12 lg:my-20 lg:mb-24 pt-4 relative">
@@ -50,11 +51,11 @@ export const Features2 = () => (
 							projects. Join the Web X community on GitHub and help us build the future of
 							technology.
 						</p>
-						<a href="https://github.com/webx-net/webx" target="_blank" className="contained-button w-72 sm:w-56 h-12 mb-6">
+						<a href="https://discord.gg/WBYrWf6u7x" target="_blank" className="contained-button w-72 sm:w-56 h-12 mb-6">
 							<span className="w-6 h-6 mr-3 fill-white">
-								<GithubIcon />
+								<DiscordIcon />
 							</span>
-							Join us on GitHub
+							Join us on Discord
 						</a>
 					</div>
 				</div>
