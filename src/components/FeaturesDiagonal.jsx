@@ -30,9 +30,9 @@ export const FeaturesDiagonal = () => {
 				whileInView={{ opacity: 1, x: 0 }}
 				viewport={{ once: true }}
 				transition={{ duration: 1.5, delay: 0.75 }}
-				className="w-full h-[12vw] relative -mt-[2vw]"
+				className="w-full h-[12vw] min-h-12 relative -mt-[2vw]"
 			>
-				<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-0 w-1/2 h-full" />
+				<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-0 w-1/2 min-w-64 h-full" />
 				{/* <img src={webx_stripe.src} alt="Web X stripe" className="w-1/2 h-full ml-auto" /> */}
 			</motion.div>
 			<motion.div
