@@ -80,7 +80,6 @@ export const FAQ = () => (
 									content={item.answer}
 									key={`${item.question}-${item.answer}`}
 									links={item.links}
-									defaultOpen={index === 0}
 								/>
 							</div>
 						))}
@@ -110,9 +109,8 @@ const FAQBox = ({ defaultOpen, title, content, links }) => {
 						<div className="mt-4">
 							Read more about:{" "}
 							{links.map((link, index) => (
-								<>
+								<span key={`${link}-${index}`}>
 									<a
-										key={`${link}-${index}`}
 										href={link.url}
 										target="_blank"
 										className="text-primaryText hover:underline"
@@ -122,7 +120,7 @@ const FAQBox = ({ defaultOpen, title, content, links }) => {
 									{index < links.length - 1 && (
 										<span className="mr-2">,</span>
 									)}
-								</>
+								</span>
 							))}
 						</div>
 					)}
