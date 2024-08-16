@@ -27,13 +27,13 @@ export const FeaturesDiagonal = () => {
 			</div>
 			<div className="overflow-hidden w-full">
 				<motion.div
-					initial={{ opacity: 0, x: 400 }}
-					whileInView={{ opacity: 1, x: 0 }}
+					initial={{ opacity: 0, x: 0 }}
+					whileInView={{ opacity: 1, x: -400 }}
 					viewport={{ once: true }}
-					transition={{ duration: 2, delay: 0.75 }}
+					transition={{ duration: 1.8, delay: 0.65 }}
 					className="w-full h-[12vw] min-h-12 relative -mt-[2vw]"
 				>
-					<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-0 w-1/2 min-w-64 h-full" />
+					<img src={webx_stripe.src} alt="Web X stripe" className="absolute top-0 right-[-401px] w-1/2 min-w-64 h-full" />
 					{/* <img src={webx_stripe.src} alt="Web X stripe" className="w-1/2 h-full ml-auto" /> */}
 				</motion.div>
 			</div>
